@@ -4,7 +4,7 @@ const MusicPlayer = () => {
     const [isPlaying, setIsPlaying] = useState(false);
 
 
-    const songUrl = "/perfect.mp3";
+    const songUrl = "/music.mp3";
 
     const audioRef = useRef(new Audio(songUrl));
 
